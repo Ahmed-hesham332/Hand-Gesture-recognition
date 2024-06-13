@@ -1,0 +1,81 @@
+# Hand Gesture Recognition and Control System
+
+## Required Libraries and Models
+
+### Python Libraries
+
+1. time (Standard Library)
+   - Used for performance measurement and time-related functions.
+   - Import: `from time import perf_counter as clock`
+   
+2. cv2 (OpenCV)
+   - Used for computer vision tasks, such as capturing video frames and image processing.
+   - Install: `pip install opencv-python`
+
+3. math (Standard Library)
+   - Provides mathematical functions.
+
+4. pyautogui
+   - Used for controlling the mouse and keyboard.
+   - Install: `pip install pyautogui`
+
+5. tkinter (Standard Library)
+   - Used for creating graphical user interfaces.
+   - Import: `import tkinter as tk`
+   - Additional imports: `from tkinter import ttk`, `from tkinter import font`
+
+6. ultralytics (YOLO)
+   - Used for object detection with YOLO models.
+   - Install: `pip install ultralytics`
+   - Import: `from ultralytics import YOLO`
+
+7. screen_brightness_control
+   - Used for controlling the screen brightness.
+   - Install: `pip install screen-brightness-control`
+   - Imports: `from screen_brightness_control import set_brightness, get_brightness`
+
+8. ctypes (Standard Library)
+   - Provides C compatible data types and allows calling functions in DLLs or shared libraries.
+   - Imports: `from ctypes import cast, POINTER`
+
+9. comtypes
+   - Provides COM client and server support.
+   - Install: `pip install comtypes`
+   - Import: `from comtypes import CLSCTX_ALL`
+
+10. pycaw (Python Core Audio Windows Library)
+    - Used for audio control on Windows.
+    - Install: `pip install pycaw`
+    - Import: `from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume`
+
+11. mediapipe
+    - Used for hand tracking and gesture recognition.
+    - Install: `pip install mediapipe`
+    - Import: `import mediapipe as mp`
+
+### Project Files
+1. HAND_TRACKING_MODULE (Custom Module)
+   - Used for hand tracking functionalities.
+   - Import: `from HAND_TRACKING_MODULE import HandTracker`
+
+2. main.py
+   - Used for cursor control functions.
+   - Import: `import main as mouseMovement`
+
+3. Yolo_realTime.py
+   - Used for non-cursor functions.
+   - Import: `import Yolo_realTime as yolo`
+
+4. optionPage.py
+   - Used for displaying options for cursor and non-cursor modes.
+   - Import: `import optionPage as op`
+
+5. home.py
+   - Used for displaying the introductory home page.
+   - Import: `import home as ip`
+
+## Notes
+- Ensure all custom modules (`HAND_TRACKING_MODULE`, `main.py`, `Yolo_realTime.py`, `optionPage.py`, `home.py`) are in the same directory as your main script or properly referenced in your project.
+- Use the `pip` command to install any missing third-party libraries as shown above.
+
+# most importantly, modify the path to the best.pt model in Yolo_realTime.py file 
