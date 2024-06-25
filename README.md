@@ -11,7 +11,7 @@ HCI Hand gesture recognition
 - PyCaw: Controlled system volume.
 - Tkinter: Created graphical user interfaces for user interaction.
 
-Key Functions:
+**Key Functions:**
 
 - Volume Control: Gestures like a closed fist with the index finger raised increase the volume, while a peace sign decreases it.
 - Brightness Control: An open palm increases brightness, and a closed fist decreases it.
@@ -25,12 +25,12 @@ The optionPage.py file presents two buttons to the user: one for activating curs
 control mode (main.py) and another for non-cursor functions (Yolo_realTime.py). 
 Additionally, a back button allows the user to return to the home page
 
-Challenges and Limitations
+**Challenges and Limitations**
 1. Lighting Conditions: The system's performance could be affected by poor lighting, leading to inaccurate gesture detection.
 2. Background Noise: A cluttered background might interfere with hand tracking, causing false detections.
 3. Some instability detection: The pause and play gesture seems to be instable
 
-Future Work
+**Future Work**
 1. Gesture Set Expansion: Adding more gestures to control additional functionalities.
 2. Enhanced Robustness: Improving the system's performance under varying lighting conditions and background complexities.
 3. User Customization: Allowing users to customize gestures for different actions
