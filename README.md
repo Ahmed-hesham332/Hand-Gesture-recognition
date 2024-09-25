@@ -1,4 +1,4 @@
-# AI
+# Computer Vision Project
 HCI Hand gesture recognition
 
 **To implement the hand gesture recognition system, we utilized several libraries and tools:**
